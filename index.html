@@ -1,4 +1,3 @@
-
 <!DOCTYPE html
     PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
@@ -303,20 +302,20 @@
             .hero-copy {
                 font-size: 20px !important;
                 line-height: 1.5 !important;
-                padding-left: 20px !important;
-                padding-right: 20px !important;
+                padding-left: 0 !important;
+                padding-right: 0 !important;
             }
 
-            .hero-cta-table {
-                width: 260px !important;
-            }
-
-            .hero-cta {
-                padding: 14px 8px !important;
-                font-size: 11px !important;
-                line-height: 16px !important;
-                letter-spacing: 2px !important;
-            }
+            .hero-cta-link {
+    display: inline-block !important;
+    width: auto !important;
+    max-width: 260px !important;
+    padding: 14px 8px !important;
+    font-size: 11px !important;
+    line-height: 16px !important;
+    letter-spacing: 1.5px !important;
+    white-space: nowrap !important;
+}
 
             /* Mobile social links: two columns per row */
             .social-desktop {
@@ -380,7 +379,7 @@
                             </div>
                             <div class="preheader"
                                 style="display:none !important;visibility:hidden;opacity:0;color:transparent;height:0;width:0;">
-                                &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;
+                                &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;
                             </div>
                         </td>
                     </tr>
@@ -466,87 +465,98 @@
                                 <tr>
                                     <td id="hero-content" class="hero-content" align="center" valign="top"
                                         bgcolor="#F1B328"
-                                        style="padding: 36px 0 28px 0; background-color: #F1B328; background-image: linear-gradient(180deg, #E29B1E 0%, #F1B328 42%, #F8CE3E 100%);">
+                                        style="background-color:#F1B328; background-image:linear-gradient(180deg, #E29B1E 0%, #F1B328 42%, #F8CE3E 100%);">
 
-                                        <table width="100%" border="0" cellpadding="0"
-                                            cellspacing="0" style="width:100%;">
+                                        <a href="https://www.paperlesspost.com/cards/category/kids-birthday-invitations"
+                                            target="_blank"
+                                            style="display:block; width:100%; color:inherit; text-decoration:none;">
 
-                                            <!-- HEADLINE -->
-                                            <tr>
-                                                <td align="center" style="padding:28px 20px 0;">
+                                            <table width="100%" border="0" cellpadding="0" cellspacing="0"
+                                                style="width:100%;">
 
-                                                    <h1 class="hero-title" style="margin:0;
-                                                        color:#9C6108;
-                                                        font-family:'DM Serif Display', Georgia, 'Times New Roman', serif;
-                                                        font-size: 76px;
-                                                        line-height: 1.04;
-                                                        font-weight:bold;
-                                                        letter-spacing:-1.5px;
-                                                        text-align:center;">
+                                                <!-- HEADLINE -->
+                                                <tr>
+                                                    <td align="center" style="padding:64px 20px 0;">
 
-                                                        Fall forecast:<br />
-                                                        <span style="color:#742705;">birthday fun</span>
+                                                        <h1 class="hero-title" style="margin:0;
+                            color:#9C6108;
+                            font-family:'DM Serif Display', Georgia, 'Times New Roman', serif;
+                            font-size:76px;
+                            line-height:1.04;
+                            font-weight:bold;
+                            letter-spacing:-1.5px;
+                            text-align:center;">
 
-                                                    </h1>
+                                                            Fall forecast:<br />
+                                                            <span style="color:#742705;">birthday fun</span>
 
-                                                </td>
-                                            </tr>
+                                                        </h1>
 
-                                            <!-- PERSONALIZED BODY COPY -->
-                                            <tr>
-                                                <td align="center" style="padding:26px 40px 36px;">
+                                                    </td>
+                                                </tr>
 
-                                                    <p class="hero-copy" style="margin:0 auto;
-                                                        max-width:475px;
-                                                        color:#261D12;
-                                                        font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
-                                                        font-size:22px;
-                                                        line-height:1.58;
-                                                        font-weight:400;
-                                                        letter-spacing:-0.1px;
-                                                        -webkit-font-smoothing:antialiased;
-                                                        -moz-osx-font-smoothing:grayscale;
-                                                        text-align:center;">
+                                                <!-- PERSONALIZED BODY COPY -->
+                                                <tr>
+                                                    <td align="center" style="padding:26px 40px 36px;">
 
-                                                        {{#if first_name}}
-                                                        {{first_name}}, make their fall birthday one to remember with invitations for every kind of celebration from game day fun to cozy sleepovers.
-                                                        {{else}}
-                                                        Make their fall birthday a core memory
-                                                        with invitations in any theme from sports
-                                                        kickoffs to sleepovers and more.
-                                                        {{/if}}
+                                                        <p class="hero-copy" style="margin:0 auto;
+                            max-width:475px;
+                            color:#261D12;
+                            font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+                            font-size:22px;
+                            line-height:1.58;
+                            font-weight:400;
+                            letter-spacing:-0.1px;
+                            -webkit-font-smoothing:antialiased;
+                            -moz-osx-font-smoothing:grayscale;
+                            text-align:center;">
 
-                                                    </p>
+                                                            {{#if first_name}}
+                                                            {{first_name}}, make their fall birthday one to remember
+                                                            with
+                                                            invitations for every kind of celebration from game day fun
+                                                            to
+                                                            cozy sleepovers.
+                                                            {{else}}
+                                                            Make their fall birthday a core memory
+                                                            with invitations in any theme from sports
+                                                            kickoffs to sleepovers and more.
+                                                            {{/if}}
 
-                                                </td>
-                                            </tr>
+                                                        </p>
 
-                                            <!-- CTA BUTTON -->
-                                            <tr>
-                                                <td align="center" style="padding:0 20px 20px;">
+                                                    </td>
+                                                </tr>
 
-                                                    <table class="hero-cta-table" width="350"
-                                                        border="0" cellpadding="0" cellspacing="0" style="width:350px;">
+                                                <!-- CTA: SPAN ONLY, CLICKABLE THROUGH THE PARENT HERO LINK -->
+                                                <tr>
+                                                    <td align="center" style="padding:0 20px 20px;">
 
-                                                        <tr>
-                                                            <td align="center" bgcolor="#FFFFFF"
-                                                                style="background-color:#FFFFFF;">
+                                                        <span class="hero-cta-link" style="display:inline-block;
+                            width:auto;
+                            background-color:#FFFFFF;
+                            color:#333333;
+                            font-family:Helvetica, Arial, sans-serif;
+                            font-size:14px;
+                            font-weight:bold;
+                            letter-spacing:2px;
+                            line-height:20px;
+                            text-align:center;
+                            text-decoration:none;
+                            padding:14px 28px;
+                            border-radius:3px;">
 
-                                                                <a href="https://www.paperlesspost.com/cards/category/kids-birthday-invitations"
-                                                                    target="_blank"
-                                                                    style="display:inline-block; background-color:#FFFFFF; color:#333333; font-family:Helvetica, Arial, sans-serif; font-size:14px; font-weight:bold; letter-spacing:2px; line-height:20px; text-align:center; text-decoration:none; padding:14px 28px; border-radius:3px;">
-                                                                    BROWSE KIDS' BIRTHDAY
-                                                                </a>
+                                                            BROWSE KIDS' BIRTHDAY
 
-                                                            </td>
-                                                        </tr>
+                                                        </span>
 
-                                                    </table>
+                                                    </td>
+                                                </tr>
 
-                                                </td>
-                                            </tr>
+                                            </table>
 
-                                        </table>
+                                        </a>
+
                                     </td>
                                 </tr>
 
@@ -572,8 +582,8 @@
                                             class="full-width" width="640">
                                             <tr>
                                                 <td align="center" valign="top">
-                                                    <table align="center" border="0" cellpadding="0" cellspacing="0"
-                                                        class="full-width" style="border-collapse:collapse;" width="330">
+                                                    <table border="0" cellpadding="0" cellspacing="0" class="full-width"
+                                                        style="border-collapse:collapse;" width="330">
                                                         <tr>
                                                             <td align="center" valign="top">
                                                                 <a class="nobrdr"
@@ -591,7 +601,8 @@
                                                 </td>
                                                 <td align="center" valign="top">
                                                     <table align="center" border="0" cellpadding="0" cellspacing="0"
-                                                        class="full-width" style="border-collapse:collapse;" width="310">
+                                                        class="full-width" style="border-collapse:collapse;"
+                                                        width="310">
                                                         <tr>
                                                             <td align="center" valign="top">
                                                                 <a class="nobrdr"
@@ -650,7 +661,8 @@
                                             <tr>
                                                 <td align="center" valign="top">
                                                     <table align="center" border="0" cellpadding="0" cellspacing="0"
-                                                        class="full-width" style="border-collapse:collapse;" width="339">
+                                                        class="full-width" style="border-collapse:collapse;"
+                                                        width="339">
                                                         <tr>
                                                             <td align="center" valign="top">
                                                                 <a class="nobrdr"
@@ -668,7 +680,8 @@
                                                 </td>
                                                 <td align="center" valign="top">
                                                     <table align="center" border="0" cellpadding="0" cellspacing="0"
-                                                        class="full-width" style="border-collapse:collapse;" width="301">
+                                                        class="full-width" style="border-collapse:collapse;"
+                                                        width="301">
                                                         <tr>
                                                             <td align="center" valign="top">
                                                                 <a class="nobrdr"
